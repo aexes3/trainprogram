@@ -48,13 +48,12 @@ img.about-img{
 
 /*portfolio*/
 .card{
-    margin: 0 50px 30px 50px;
+    margin-bottom: 15px;
 }
 a:active h3{
     background-color: crimson;
     
 }
-
 
 /*contact*/
 .container form{
@@ -62,14 +61,11 @@ a:active h3{
 }
 .jumbotron{
     padding: 5px;
-}
-label{
-    color: #fff;
-    padding: 5px;
-}
+    margin: 15px;
 
+}
 /*footer*/
- footer{
+footer{
     background-color: #666666;
     height: 40px;
     width: 100%;
@@ -81,10 +77,10 @@ label{
     border-top: 5px solid #4aaaa5;
     bottom:0;
     position: fixed;
-    }
+}
 
-    @media (max-width: 640px){
-        img.about-img{
-            width: 95%;
-        }
+@media (max-width: 640px){
+    img.about-img{
+        width: 95%;
+    }
 }

@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>日本新幹線</title>
 
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <!-- Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -19,7 +16,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/styles.css" />
 
     <!-- MomentJs CDN-->
-    <script src="https://cdn.jsdelivr.net/momentjs/2.2.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     
 
 </head>
@@ -75,31 +72,33 @@
         <!-- Train Input -->
         <div class="card">
             <div class="card-header">Add Train To Scheduler</div>
-            <div class="panel-body">
+            <div class="card-body">
                 <div class="form-group">
-                    <label for="train-input">Train Name</label>
+                    <label for="train-input viewer">Train Name</label>
                     <input type="email" class="form-control" id="trainName">
                 </div>
                 <div class="form-group">
-                    <label id="exampleInputEmail1">Destination</label>
+                    <label id="destination-input viewer">Destination</label>
                     <input type="email" class="form-control" id="dest">
                 </div>
                 <div class="form-group">
-                    <label id="exampleInputEmail1">First Train Time(HH:mm - military time)</label>
+                    <label id="militaryTime-input viewer">First Train Time(HH:mm - military time)</label>
                     <input type="email" class="form-control" id="firstTrainTime">
                 </div>
                 <div class="form-group">
-                    <label id="exampleInputEmail1">Frequency (min)</label>
+                    <label id="Frequency-input viewer">Frequency (min)</label>
                     <input type="email" class="form-control" id="freq">
                 </div>
                 <button type="submit" class="btn btn-primary" id='submit'>Submit</button>
-                <button type="submit" class="btn btn-primary" id="google_translate_element">Translate</button>
+                <button type="submit" class="btn btn-primary" id="test-button">Test</button>
             </div>
         </div>
     </div>
 
     <!-- Javascript -->
    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+   <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/train.js"></script>
 
 </body>
